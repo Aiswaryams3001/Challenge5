@@ -1,0 +1,1 @@
+﻿Insert into studentreg values('Admin','admin@gmail.com','9995622929','Male',30/1/2020,23);

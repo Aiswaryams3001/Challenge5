@@ -1,0 +1,1 @@
+﻿Insert into log values('Admin','admin','Admin','Confirmed');
