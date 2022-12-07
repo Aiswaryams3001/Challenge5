@@ -8,7 +8,7 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <h2>User Confirmation</h2>     
+    <h2>User Block</h2>     
     <form id="form1" runat="server">
           <asp:GridView ID="GridView1" runat="server" DataKeyNames="lid1" AutoGenerateColumns="False"  >
                 <Columns>
@@ -18,7 +18,7 @@
                      <asp:BoundField DataField="gender" HeaderText="gender" />
                      <asp:BoundField DataField="dob" HeaderText="dob" />
                 
-                    <asp:CommandField HeaderText="Status" ShowDeleteButton="True" DeleteText="confirm" />
+                    <asp:CommandField HeaderText="Status" ShowDeleteButton="True" DeleteText="Block" />
                 </Columns>
             </asp:GridView>
     </form>
